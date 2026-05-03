@@ -38,6 +38,13 @@ Type    Name   Value
 CNAME   www    januff.github.io
 ```
 
+If this repository is transferred to Ed's GitHub account, use this value instead:
+
+```txt
+Type    Name   Value
+CNAME   www    edanuff.github.io
+```
+
 DNS propagation can take a few minutes to several hours. GitHub may take up to 24 hours before HTTPS enforcement is available.
 
 ## Update Contact Email
