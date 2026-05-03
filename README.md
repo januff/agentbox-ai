@@ -15,7 +15,13 @@ This repo is designed to publish directly from the repository root.
 
 ## GoDaddy DNS Records
 
-In GoDaddy DNS, point the apex domain to GitHub Pages:
+As of the initial setup, `agentbox.ai` resolves through `dns1.registrar-servers.com`
+and `dns2.registrar-servers.com`, which are Namecheap-style nameservers. If the
+domain is registered at GoDaddy but uses external nameservers, update the DNS
+records wherever those nameservers are managed, or switch the domain back to
+GoDaddy nameservers and then add these records in GoDaddy.
+
+Point the apex domain to GitHub Pages:
 
 ```txt
 Type   Name   Value
